@@ -1,0 +1,46 @@
+//引入变量
+@import 'var';
+
+/*添加公共样式*/
+/*内容、版心 提取 */
+body {
+    font: 14px/1.5 "Helvetica Neue",Helvetica,Arial,"Microsoft Yahei","Hiragino Sans GB","Heiti SC","WenQuanYi Micro Hei",sans-serif;
+    color: #333;
+    background-color: #fff;
+    min-width: 1226px;
+}
+.container {  
+    width:$container;
+    margin:0 auto;
+    padding: 0;
+}
+.fl {
+    float:$fl;
+}
+.fr {
+    float:$fr;
+}
+.ac {
+    text-align:center;
+}
+.hide {
+    display:$hide;
+}
+.show{
+    display: $show ;
+}
+.f12{ font-size: $fs12;}
+
+.clearfix::after{
+    content:"";
+    display:block;
+    height:0;
+    clear:both;
+    overflow: hidden;
+    visibility: hidden;
+    zoom: 1; 
+}
+
+.highcolor{
+    color: $highcolor;
+}

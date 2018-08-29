@@ -1,0 +1,12 @@
+#过滤目录
+node_modules
+temp/
+
+#过滤文件
+
+*.zip
+*.exe
+*.rar
+*.7z
+*.wmv
+*.mp4

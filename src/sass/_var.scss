@@ -1,0 +1,32 @@
+// 头部
+
+
+//内容宽度
+$container:1226px;
+
+//左浮
+$fl:left;
+//右浮
+$fr:right;
+//默认字体大小
+$fs12:12px;
+
+//显示
+$show : block;
+//隐藏
+$hide:none;
+//主背景颜色
+$mainBG:#fff;
+//高亮颜色
+$highcolor:#FFA500;
+//主字体颜色
+$mainFC:#777;
+
+//伪元素
+@mixin after($w:0px,$h:0){
+    position: absolute;
+    content: '';
+    display: block;
+    height: $h,;
+    width: $w;
+}
